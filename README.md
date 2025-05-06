@@ -1,4 +1,4 @@
 #### Hi there 👋
 I'm FewLyTorch aka. fury.torch
 
-I'm currently working on [Wordify](https://www.github.com/FewLy-Torch-1861/Wordify) project
+I'm currently working on [My hyprland rice](https://www.github.com/FewLy-Torch-1861/) project
