@@ -1,7 +1,7 @@
 #### Hi there 👋
 I'm FewLyTorch aka. fury.torch
 
-I'm high school students interested in Linux.
+I'm a thai high school students interested in Linux.
 
 ---
 
