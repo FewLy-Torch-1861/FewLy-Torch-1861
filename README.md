@@ -1,7 +1,7 @@
 #### Hi there 👋
 I'm FewLyTorch aka. fury.torch\
 I'm a thai high school students interested in Linux.\
-I'm currently working on [my discord bot](https://github.com/FewLy-Torch-1861/My-Discord-Bot)
+I'm currently working on [fern](https://github.com/FewLy-Torch-1861/Fern)
 
 ---
 
