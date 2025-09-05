@@ -36,4 +36,4 @@ fn main() {
     let me = Me::new();
     me.about();
 }
-```rust
+```
