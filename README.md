@@ -1,9 +1,37 @@
-#### Hi there 👋
-I'm FewLyTorch aka. fury.torch\
-I'm a thai high school students interested in Linux.\
-I'm currently working on [fern](https://github.com/FewLy-Torch-1861/Fern)
+struct Me {
+    name: &'static str,
+    nationality: &'static str,
+    interests: Vec<&'static str>,
+    current_project: &'static str,
+    languages: Vec<&'static str>,
+    contacts: Vec<&'static str>,
+}
 
----
+impl Me {
+    fn new() -> Self {
+        Self {
+            name: "nut",
+            nationality: "Thai",
+            interests: vec!["Linux", "Web Development", "Ai"],
+            current_project: "https://github.com/FewLy-Torch-1861/FewLy-Torch-1861.github.io",
+            languages: vec!["Python", "Rust", "JavaScript"],
+            contacts: vec![
+                "Linktree: FuryTorch"
+                "Discord: fury.torch",
+            ],
+        }
+    }
 
-#### Contact me
-[linktree](https://linktr.ee/FuryTorch) *all my social are there*
+    fn about(&self) {
+        println!("👋 Hi, I'm {} from {}", self.name, self.nationality);
+        println!("🔥 Interests: {:?}", self.interests);
+        println!("🚧 Currently working on: {}", self.current_project);
+        println!("💻 Mostly coding in: {:?}", self.languages);
+        println!("📫 Contact me: {:?}", self.contacts);
+    }
+}
+
+fn main() {
+    let me = Me::new();
+    me.about();
+}
