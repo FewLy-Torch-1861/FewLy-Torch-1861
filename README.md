@@ -1,3 +1,4 @@
+```rust
 struct Me {
     name: &'static str,
     nationality: &'static str,
@@ -35,3 +36,4 @@ fn main() {
     let me = Me::new();
     me.about();
 }
+```rust
