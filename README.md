@@ -14,7 +14,7 @@ impl Me {
             name: "nut",
             nationality: "Thai",
             interests: vec!["Linux", "Web Development", "Ai"],
-            current_project: "https://github.com/FewLy-Torch-1861/Homie",
+            current_project: "https://github.com/FewLy-Torch-1861/Dotfiles",
             languages: vec!["Python", "Rust", "JavaScript"],
             contacts: vec![
                 "Linktree: FuryTorch"
