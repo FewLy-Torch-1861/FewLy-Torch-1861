@@ -1,39 +1,15 @@
-```rust
-struct Me {
-    name: &'static str,
-    nationality: &'static str,
-    interests: Vec<&'static str>,
-    current_project: &'static str,
-    languages: Vec<&'static str>,
-    contacts: Vec<&'static str>,
-}
+### Hiii :3
 
-impl Me {
-    fn new() -> Self {
-        Self {
-            name: "nut",
-            nationality: "Thai",
-            interests: vec!["Linux", "Web Development", "Ai"],
-            current_project: "https://github.com/FewLy-Torch-1861/Dotfiles",
-            languages: vec!["Python", "Rust", "JavaScript"],
-            contacts: vec![
-                "Linktree: FuryTorch"
-                "Discord: fury.torch",
-            ],
-        }
-    }
+I'm **Nutt** <sup>aka.furytorch</sup> >w<
 
-    fn about(&self) {
-        println!("👋 Hi, I'm {} from {}", self.name, self.nationality);
-        println!("🔥 Interests: {:?}", self.interests);
-        println!("🚧 Currently working on: {}", self.current_project);
-        println!("💻 Mostly coding in: {:?}", self.languages);
-        println!("📫 Contact me: {:?}", self.contacts);
-    }
-}
+I'm currently cooking [my dotfiles](https://github.com/FewLy-Torch-1861/Dotfiles) ^^
 
-fn main() {
-    let me = Me::new();
-    me.about();
-}
-```
+I love Python n Rust >^<
+
+#### Contact Me ^^
+
+Discord: fury.torch
+
+---
+
+<sup>tysm 4 readin this \<3</sup>
